@@ -1,0 +1,91 @@
+
+ Start         Length     Name                   Class
+ 0002:00000000 000000C94H .text                  CODE
+ 0003:00000000 0000007DCH .rdata                 DATA
+ 0004:00000000 00000039CH .data                  DATA
+ 0005:00000000 000000008H .00cfg                 DATA
+ 0006:00000000 0000001A8H .rsrc                  DATA
+ 0007:00000000 00000015CH .reloc                 DATA
+
+
+  Address         Publics by Value
+
+ 0001:00000000       _main
+ 0001:00000003       ?pre_c_initialization@@YAHXZ
+ 0001:000000C8       ?__scrt_common_main_seh@@YAHXZ
+ 0001:0000024A       start
+ 0001:00000254       _atexit
+ 0001:00000269       __onexit
+ 0001:00000296       ___scrt_is_nonwritable_in_current_image
+ 0001:0000032A       ___scrt_acquire_startup_lock
+ 0001:0000035C       ___scrt_release_startup_lock
+ 0001:00000379       ___scrt_initialize_crt
+ 0001:000003B2       ___scrt_uninitialize_crt
+ 0001:000003DA       ___scrt_initialize_onexit_tables
+ 0001:00000461       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z
+ 0001:000004A5       ___security_init_cookie
+ 0001:000004F0       ___get_entropy
+ 0001:0000053D       UserMathErrorFunction
+ 0001:00000544       __get_startup_file_mode
+ 0001:00000559       __initialize_default_precision
+ 0001:0000057A       nullsub_1
+ 0001:0000057D       ___scrt_initialize_default_local_stdio_options
+ 0001:00000608       j_UserMathErrorFunction
+ 0001:00000619       ___scrt_fastfail
+ 0001:00000734       ___scrt_unhandled_exception_filter@4
+ 0001:000007F0       __SEH_prolog4
+ 0001:00000835       __except_handler4
+ 0001:00000A38       ___scrt_is_ucrt_dll_in_use
+ 0001:00000A44       @__security_check_cookie@4
+ 0001:00000A4D       $failure$4
+ 0001:00000B4C       ___raise_securityfailure
+ 0001:00000B74       __filter_x86_sse2_floating_point_exception_default
+ 0001:00000BEC       __current_exception
+ 0001:00000BF2       __current_exception_context
+ 0001:00000BF8       _except_handler4_common
+ 0001:00000BFE       memset
+ 0001:00000C04       __p___argc
+ 0001:00000C0A       __p___argv
+ 0001:00000C10       __p__commode
+ 0001:00000C16       __setusermatherr
+ 0001:00000C1C       _c_exit
+ 0001:00000C22       _cexit
+ 0001:00000C28       _configthreadlocale
+ 0001:00000C2E       _configure_narrow_argv
+ 0001:00000C34       _controlfp_s
+ 0001:00000C3A       _crt_atexit
+ 0001:00000C40       _exit
+ 0001:00000C46       _get_initial_narrow_environment
+ 0001:00000C4C       _initialize_narrow_environment
+ 0001:00000C52       _initialize_onexit_table
+ 0001:00000C58       _initterm
+ 0001:00000C5E       _initterm_e
+ 0001:00000C64       _register_onexit_function
+ 0001:00000C6A       _register_thread_local_exe_atexit_callback
+ 0001:00000C70       _seh_filter_exe
+ 0001:00000C76       _set_app_type
+ 0001:00000C7C       _set_fmode
+ 0001:00000C82       _set_new_mode
+ 0001:00000C88       exit
+ 0001:00000C8E       terminate
+ 0002:00000000       __load_config_used
+ 0002:000000C0       ExceptionInfo
+ 0002:0000014C       ___safe_se_handler_table
+ 0002:0000015C       First
+ 0002:00000168       Last
+ 0002:0000017C       __IMPORT_DESCRIPTOR_KERNEL32
+ 0002:00000190       __IMPORT_DESCRIPTOR_VCRUNTIME140
+ 0002:000006CA       aKernel32Dll
+ 0002:000006D7       aVcruntime140Dl
+ 0002:000006E8       aApiMsWinCrtRun
+ 0002:0000070A       aApiMsWinCrtStd
+ 0002:0000072A       aApiMsWinCrtMat
+ 0002:00000749       aApiMsWinCrtLoc
+ 0002:0000076A       aApiMsWinCrtHea
+ 0003:00000010       ___security_cookie
+ 0003:0000002C       Table
+ 0003:00000048       ListHead
+ 0004:00000000       ___guard_check_icall_fptr
+ 0004:00000004       ___castguard_check_failure_os_handled_fptr
+
+Program entry point at 0001:0000024A
